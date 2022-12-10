@@ -1,0 +1,15 @@
+<section class="remain column">
+<h2>Consulté récemment</h2>
+<article class="card column">
+    <img src="{{product[1].productImage}}" alt="image produit">
+    <h3>{{product[1].productName}}</h3>
+    <p>{{product[1].productPrice}}€</p>
+    <button class="button">Ajouter au panier</button>
+</article>
+<!-- Fonctionne, je récupère les données -->
+<!-- <li>{{product[0].productName}}</li> -->
+<!-- Fonctionne, je récupère les données -->
+<!-- <li *ngFor="let item of product">{{item.productName}}</li> -->
+<!-- Ne fonctionne pas car n'accepte pas l'index du tableau dans le one-card-component -->
+<!-- <app-one-card *ngFor="let item of product" [item] = "item"></app-one-card> -->
+</section>

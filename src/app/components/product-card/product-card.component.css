@@ -1,0 +1,24 @@
+.card {
+    width: 307px;
+    height: 433px;
+    background: white;
+    margin-bottom: 67px;
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 11px;
+}
+
+p {
+    margin-bottom: 19px;
+}
+
+.button {
+    color: white;
+    background: #B66B55;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    width: 190px;
+}

@@ -1,0 +1,22 @@
+.product {
+    text-align: center;
+}
+
+h1 {
+    margin: 127px auto;
+    font-size: 3rem;
+    width: min(428px, 100%);
+}
+
+.product__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 83px;
+    padding: 0 175px;
+}
+
+.button {
+    width: 150px;
+    margin: 0 auto;
+}

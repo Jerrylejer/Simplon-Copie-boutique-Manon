@@ -1,0 +1,47 @@
+.remain {
+    height: 811px;
+    width: min(1440px, 100%);
+    background: #799988;
+    color: white;
+    margin: 0 auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 80px;
+    font-size: 2.5rem;
+}
+
+/* Card */
+.card {
+    width: 307px;
+    height: 433px;
+    background: white;
+    margin-bottom: 67px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 21px;
+    color: black;
+}
+
+p {
+    margin-bottom: 29px;
+    color: black;
+}
+
+.button {
+    color: white;
+    background: #B66B55;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    width: 190px
+}
